@@ -72,8 +72,15 @@
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="wUP-x4-ejK"/>
+                                    <constraint firstAttribute="width" constant="200" id="wUP-x4-ejK">
+                                        <variation key="heightClass=compact-widthClass=compact" constant="400"/>
+                                        <variation key="heightClass=compact-widthClass=regular" constant="400"/>
+                                        <variation key="heightClass=regular-widthClass=regular" constant="400"/>
+                                    </constraint>
                                 </constraints>
+                                <variation key="heightClass=compact-widthClass=compact" axis="horizontal" distribution="fillEqually"/>
+                                <variation key="heightClass=compact-widthClass=regular" axis="horizontal" distribution="fillEqually"/>
+                                <variation key="heightClass=regular-widthClass=regular" axis="horizontal" distribution="fillEqually"/>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -84,7 +91,9 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="otW-Bo-0tW" secondAttribute="bottom" constant="15" id="FlU-aD-97F"/>
                             <constraint firstItem="WbT-5s-dL7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KDY-lS-oUj"/>
                             <constraint firstAttribute="trailingMargin" secondItem="tMP-Fp-nGt" secondAttribute="trailing" id="rQn-j9-lhr"/>
-                            <constraint firstItem="WbT-5s-dL7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="26" id="v8u-HG-R7H"/>
+                            <constraint firstItem="WbT-5s-dL7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="26" id="v8u-HG-R7H">
+                                <variation key="heightClass=compact" constant="0.0"/>
+                            </constraint>
                         </constraints>
                     </view>
                 </viewController>
